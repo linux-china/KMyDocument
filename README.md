@@ -35,6 +35,8 @@ JS> db.get_collections()
 JS> db.Account.find()
 ```
 
+* query: https://dev.mysql.com/doc/refman/8.0/en/mysql-shell-tutorial-javascript-documents-find.html
+
 # Reference
 
 * MySQL Shell: https://dev.mysql.com/doc/refman/5.7/en/mysql-shell.html
