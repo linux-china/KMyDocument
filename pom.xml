@@ -61,6 +61,11 @@
             <version>8.0.11</version>
         </dependency>
         <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>klaxon</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.2.0</version>
@@ -163,4 +168,10 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com/</url>
+        </repository>
+    </repositories>
 </project>
