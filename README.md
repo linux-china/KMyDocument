@@ -29,7 +29,10 @@ Operations in MySQL Shell
 
 ```
 JS> \use demo
-JS> db.createCollection("account")
+JS> db.createCollection("Account")
+JS> db.get_collections()
+JS> db.get_collections()
+JS> db.Account.find()
 ```
 
 # Reference
